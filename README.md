@@ -1,0 +1,1 @@
+![boceto](assets/img/boceto.jpg)
