@@ -1,0 +1,181 @@
+/*colors
+* #FDF9F8
+* #FDF1F0
+* #F26E55
+* #2B313D
+* #4bceb4
+*/
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+	margin:0;
+	padding: 0;
+}
+.header-container{
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+   
+}
+
+.header{
+	background-color: #FDF9F8;
+}
+
+ul.list-navbar{
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+}
+
+li:hover{
+	background-color: #FDF1F0;
+}
+
+.navbar-option{
+	display: flex;
+	justify-content: space-around;
+	color: #4bceb4;
+	padding: 0.8em;
+	cursor: pointer;
+}
+
+.navbar-option:hover{
+	color: #F26E55;
+}
+
+a.navbar-option{
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.presentation{
+	width: auto;
+	background-color: #F26E55;
+	padding-bottom: 8em;
+	padding-top: 8em;
+}
+
+.name-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 8em;
+}
+
+p.name{
+	font-size: 80px;
+	font-weight: bolder;
+	color: #F7F7F7;
+	text-shadow: 0.1em 0.1em #D66652;
+}
+
+ hr { 
+   border-top: 3px solid #4bceb4; 
+   border-bottom: 2px dashed #4bceb4; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px; 
+   width: 25em;
+   margin-left: auto;
+   margin-right: auto;
+ } 
+
+.subtitle-container{
+	display: flex;
+	justify-content: center;
+}
+
+h4.subtitle{
+	font-size: 20px;
+	color: #F7F7F7;
+	text-shadow: 0.1em 0.1em #D66652;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.photo-container{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin-bottom: 6em; 
+}
+
+.work{
+	width: auto;
+	height: 60em;
+	background-color: #2B313D;
+}
+
+.about-me{
+	width: auto;
+	height: 60em;
+	background-color: #F26E55;
+}
+
+.contact{
+	width: auto;
+	height: auto;
+	background-color: /*#2B313D*/ white;
+}
+
+h2{
+	color: #4bceb4;
+}
+
+.form-container{
+	margin-left: 20em;
+}
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4bceb4; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #787878; 
+}
+
+
+
+@media (max-width: 768px) {
+    p.name {
+        font-size: 40px;
+    }
+    p.navbar-option{
+	font-size: 15px;
+}
+}
+
+@media (max-width: 414px) {
+    p.name {
+        font-size: 30px;
+    }
+    p.navbar-option{
+	font-size: 15px;
+}
+}
+
+@media (max-width: 320px) {
+    p.name {
+        font-size: 30px;
+    }
+    p.navbar-option{
+	font-size: 13px;
+}
