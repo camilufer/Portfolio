@@ -78,9 +78,9 @@ p.name{
    border-left:none; 
    border-right:none; 
    height: 6px; 
-   width: 25em;
    margin-left: auto;
    margin-right: auto;
+
  } 
 
 .subtitle-container{
@@ -111,12 +111,12 @@ h4.subtitle{
 
 .about-me{
 	width: auto;
-	height: 60em;
+	height: auto;
 	background-color: #F26E55;
 }
 
 .photo-container{
-	margin-top: 2em;
+	margin-top: 6em;
 }
 
 .contact{
@@ -129,9 +129,6 @@ h2{
 	color: #4bceb4;
 }
 
-.form-container{
-	margin-left: 20em;
-}
 
 
 
@@ -162,7 +159,7 @@ h2{
     p.name {
         font-size: 40px;
     }
-    p.navbar-option{
+    a.navbar-option{
 	font-size: 15px;
 }
 }
@@ -171,7 +168,7 @@ h2{
     p.name {
         font-size: 30px;
     }
-    p.navbar-option{
+    a.navbar-option{
 	font-size: 15px;
 }
 }
@@ -180,6 +177,10 @@ h2{
     p.name {
         font-size: 30px;
     }
-    p.navbar-option{
+    a.navbar-option{
 	font-size: 13px;
+}
+	.form-container{
+		width: auto;
+	}
 }
