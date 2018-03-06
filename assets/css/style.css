@@ -13,6 +13,7 @@
 }
 .header-container{
 	position: fixed;
+	z-index: 1;
     top: 0;
     right: 0;
     width: 100%;
@@ -127,6 +128,24 @@ h4.subtitle{
 
 h2{
 	color: #4bceb4;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #2B313D;
+}
+
+.icons-container{
+   padding-top: 1em;
+   padding-bottom: 1em;
+   width: 100%;
+}
+
+.fa-github, .fa-linkedin{
+	font-size:3em;
+	color: #4bceb4;	
+	cursor: pointer;
 }
 
 
