@@ -1,17 +1,26 @@
 /*colors
-* #FDF9F8
-* #FDF1F0
-* #F26E55
-* #2B313D
-* #4bceb4
+* #FDF9F8 rosado extra claro
+* #FDF1F0 rosado claro
+* #F26E55 damasco
+* #2B313D oscuro
+* #4bceb4 celeste
 */
 
 *{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Press Start 2P', cursive;
 	margin:0;
 	padding: 0;
 }
+
+
+.all{
+	background-image: url(../img/gif-fondo/f9df0ccaab2d631e9183d7bc7cab8e5b.gif);
+	background-attachment: fixed;
+
+}
+
 .header-container{
+	background-color: #6259AB; 
 	position: fixed;
 	z-index: 1;
     top: 0;
@@ -20,9 +29,6 @@
    
 }
 
-.header{
-	background-color: #FDF9F8;
-}
 
 ul.list-navbar{
 	list-style: none;
@@ -30,10 +36,6 @@ ul.list-navbar{
 
 li{
 	display: inline-block;
-}
-
-li:hover{
-	background-color: #FDF1F0;
 }
 
 .navbar-option{
@@ -44,34 +46,38 @@ li:hover{
 	cursor: pointer;
 }
 
-.navbar-option:hover{
+a:hover{
 	color: #F26E55;
 }
 
+
 a.navbar-option{
-	font-size: 25px;
+	font-weight: bolder;
+	font-size: 20px;
 	text-decoration: none;
 }
 
+
+
 .presentation{
 	width: auto;
-	background-color: #F26E55;
 	padding-bottom: 8em;
-	padding-top: 8em;
+	padding-top: 4em;
 }
 
 .name-container{
 	display: flex;
 	justify-content: center;
-	padding-top: 8em;
+	padding-top: 6em;
 }
 
 p.name{
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: bolder;
 	color: #F7F7F7;
-	text-shadow: 0.1em 0.1em #D66652;
+	
 }
+
 
  hr { 
    border-top: 3px solid #4bceb4; 
@@ -89,11 +95,12 @@ p.name{
 	justify-content: center;
 }
 
+
 h4.subtitle{
 	font-size: 20px;
 	color: #F7F7F7;
-	text-shadow: 0.1em 0.1em #D66652;
-	padding-top: 2em;
+	/*text-shadow: 0.2em 0.2em #E66652;*/
+	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
@@ -105,15 +112,16 @@ h4.subtitle{
 }
 
 .work{
+	padding-top: 6em;
 	width: auto;
-	height: 60em;
-	background-color: #2B313D;
+	height: 100vh;
+	/*background-color: #2B313D;*/
 }
 
 .about-me{
 	width: auto;
-	height: auto;
-	background-color: #F26E55;
+	height: 100vh;
+	/*background-color: #F26E55;*/
 }
 
 .photo-container{
@@ -122,8 +130,8 @@ h4.subtitle{
 
 .contact{
 	width: auto;
-	height: auto;
-	background-color: /*#2B313D*/ white;
+	height: 100vh;
+	/*background-color: white;*/
 }
 
 h2{
@@ -148,10 +156,33 @@ footer{
 	cursor: pointer;
 }
 
+.form-container{
+	margin-top: 6em;
+}
 
+.pc-image-container{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
 
+.camilu {
+  background: url(../img/camilu8.png) no-repeat;
+  height: 250px;
+  width: 250px;
 
+}
 
+.camilu:hover {
+  background: url(../img/camilu8espejo.png) no-repeat;
+  height: 250px;
+  width: 250px;
+}
+
+.heart{
+	width: 20px;
+	height: 20px;
+}
 
 
 
@@ -167,10 +198,6 @@ footer{
     background: #4bceb4; 
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #787878; 
-}
 
 
 
@@ -185,21 +212,36 @@ footer{
 
 @media (max-width: 414px) {
     p.name {
-        font-size: 30px;
+        font-size: 22px;
     }
     a.navbar-option{
-	font-size: 15px;
+	font-size: 6px;
 }
+	h4.subtitle {
+		font-size: 10px;
+	}
+	.pc-image {
+		width: 300px;
+	}
+	.name-container{
+		padding-top: 1em;
+	}
 }
+
+
+
 
 @media (max-width: 320px) {
     p.name {
-        font-size: 30px;
+        font-size: 18px;
     }
     a.navbar-option{
-	font-size: 13px;
+	font-size: 5px;
 }
 	.form-container{
 		width: auto;
+	}
+	.name-container{
+		padding-top: 1em;
 	}
 }
