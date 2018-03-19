@@ -115,10 +115,9 @@ h4.subtitle{
 }
 
 .work{
-	padding-top: 6em;
 	height: 100vh;
 	width: 100%;
-	padding-bottom: 6em;	
+		
 	/*background-color: #2B313D;*/
 }
 
@@ -195,6 +194,8 @@ footer{
 .btn-proyect-container{
 	margin-top: 2em;
 }
+
+
 
 .heart{
 	width: 20px;
@@ -278,8 +279,8 @@ footer{
 
 .content-carrousel figure{
 	width: 100%;
-	height: 120px;
-	width: 220px;
+	height: 140px;
+	width: 240px;
 	overflow: hidden;
 	position: absolute;
 	box-shadow: 0px 0px 20px 0px grey;
@@ -295,12 +296,12 @@ footer{
 
 
 
-.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(210px);}
-.content-carrousel figure:nth-child(2){transform: rotateY(60deg) translateZ(210px);}
-.content-carrousel figure:nth-child(3){transform: rotateY(120deg) translateZ(210px);}
-.content-carrousel figure:nth-child(4){transform: rotateY(180deg) translateZ(210px);}
-.content-carrousel figure:nth-child(5){transform: rotateY(240deg) translateZ(210px);}
-.content-carrousel figure:nth-child(6){transform: rotateY(300deg) translateZ(210px);}
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(220px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(60deg) translateZ(220px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(120deg) translateZ(220px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(180deg) translateZ(220px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(240deg) translateZ(220px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(300deg) translateZ(220px);}
 
 
 .content-carrousel img{
