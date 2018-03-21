@@ -9,9 +9,11 @@ $(document).ready(function(){
 
   //funcion para cambiar avatar
   $("#btn").click(function(){
-  $(".camilu").replaceWith("<img src='assets/img/me2.png' class='pause-symbol pointer'/>");
+  $(".camilu").replaceWith("<img src='assets/img/me2.png'/>");
    event.preventDefault();
     })
+
+  
 
   // Select all links with hashes
   $('a[href*="#"]')
@@ -53,4 +55,15 @@ $(document).ready(function(){
  });
 
 
+function cambiaTamanio(){
+  if (document.images) {
+    document.images.logo.width=100;
+    document.images.logo.height=100;
+  } else {
+    logo = document.getElementById("logo");
+    logo.width = 80;
+    logo.height = 80; 
+  }
+  event.preventDefault();
+}
 
