@@ -201,6 +201,7 @@ footer{
 	/*padding: 1em;*/
 	/*border: 5px solid #fff;*/
 	background-color: #000;
+	margin-top:1em;
 }
 
 .select-skill{
@@ -236,7 +237,7 @@ footer{
   cursor: pointer;
   border: none;
   outline: none;
-  margin:1em;
+ 
   color: #fff;
   background-color: #4CAF50;
   border-radius: 50px;
@@ -259,6 +260,7 @@ outline: none;
 .skillList{
 	color: #FFF;
 	margin-top:1.5em;
+
 }
 .sword{
 	display: flex;
@@ -307,7 +309,20 @@ outline: none;
     background: #4bceb4; 
 }
 
-
+@media (min-width: 1024px) {
+	.sword{
+		width: 8em;
+		margin-top: 1.5em;
+	}
+	.skillList p{
+		font-size: 20px;
+	}
+	.skill-container{
+	}
+	.btn{
+		font-size: 30px;
+	}
+}
 
 
 @media (max-width: 768px) {
@@ -316,7 +331,14 @@ outline: none;
     }
     a.navbar-option{
 	font-size: 15px;
-}
+    }
+	.sword{
+		width: 8em;
+		margin-top: 1.5em;
+	}
+	.skillList p{
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 414px) {
@@ -335,6 +357,13 @@ outline: none;
 	.name-container{
 		padding-top: 1em;
 	}
+	.sword{
+		width: 4em;
+		margin-top: 2em;
+	}
+	.skillList p{
+		font-size: 8px;
+	}
 }
 
 
@@ -352,5 +381,16 @@ outline: none;
 	}
 	.name-container{
 		padding-top: 1em;
+	}
+	.sword{
+		width: 4em;
+		margin-top: 2em;
+	}
+	.skillList p{
+		font-size: 8px;
+	}
+	.btn{
+
+		font-size: 20px;
 	}
 }
