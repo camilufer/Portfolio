@@ -65,6 +65,7 @@ a.navbar-option{
 	width: auto;
 	padding-bottom: 8em;
 	padding-top: 4em;
+	outline: none;
 }
 
 .name-container{
@@ -117,19 +118,14 @@ h4.subtitle{
 .work{
 	height: 100vh;
 	width: 100%;
-		
+	outline: none;
 	/*background-color: #2B313D;*/
 }
 
 .works{
 	width: 200px;
 }
-.about-me{
 
-	width: auto;
-	height: 100vh;
-	/*background-color: #F26E55;*/
-}
 
 .mySlides{
 	width: 100%;
@@ -143,6 +139,7 @@ h4.subtitle{
 .contact{
 	width: auto;
 	height: auto;
+	outline: none;
 	/*background-color: white;*/
 }
 
@@ -159,7 +156,6 @@ footer{
 .icons-container{
    padding-top: 1em;
    padding-bottom: 1em;
-   width: 100%;
 }
 
 .fa-github, .fa-linkedin{
@@ -194,50 +190,15 @@ footer{
   width: 250px;
 }
 
-.btn {
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  outline-offset: 0;
-  color: #fff;
-  background-color: #4CAF50;
-  border-radius: 50px;
-  box-shadow: 0 9px #999;
-  margin-bottom: 1em;
-}
-
-.btn:hover {
-	background-color: #3e8e41;
-	outline: none;
-	outline-offset: 0;
-}
-
-.btn:active {
-	outline: none;
-	outline-offset: 0;
-	color: white;
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  margin-color: transparent;
-}
 
 
-
-
-.heart{
-	width: 20px;
-	height: 20px;
-}
 
 .skill{
 	width: 100px;
 }
 
 .skill-container, .principal-work{
-	padding: 1em;
+	/*padding: 1em;*/
 	/*border: 5px solid #fff;*/
 	background-color: #000;
 }
@@ -254,6 +215,46 @@ footer{
 	margin: 1em;
 }
 
+/* estilos about me */
+.about-me{
+	width: auto;
+	height: 100vh;
+	outline: none;
+	/*background-color: #F26E55;*/
+}
+
+.btn:hover {
+	background-color: #3e8e41;
+	outline: none;
+	outline-offset: 0;
+
+}
+
+.btn {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin:1em;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 1em;
+}
+
+
+
+.btn:active {
+outline: none;
+  outline-offset: none;
+  color: white;
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
 
 .skillList{
 	color: #FFF;
@@ -265,6 +266,19 @@ footer{
 	width:10em;
 }
 
+
+/* estilos contact me*/
+
+
+.icono-redsocial{
+	width: 70px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* estilos del footer*/
 .dog{
 	background: url(../img/dog.png) no-repeat;
 	height: 100px;
@@ -278,28 +292,17 @@ footer{
 	width: 100px;
 	margin-left: 2em;
 }
-
-
-.container-img-proyecto {
-  position: relative;
-  width: 100%;
-}
-
-.icono{
-	width: 60px;
-	margin:2em;
-	cursor: pointer;
+.heart{
+	width: 20px;
+	height: 20px;
 }
 
 
-/* width */
+/* estilos de scroll */
 ::-webkit-scrollbar {
     width: 1em;
 }
 
-
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #4bceb4; 
 }
