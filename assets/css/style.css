@@ -32,23 +32,6 @@
    
 }
 
-h6:hover{
-	color: #D71072;
-}
-
-
-
-a:hover{
-	color: #D71072;
-}
-
-
-a.navbar-option{
-	font-weight: bolder;
-	font-size: 20px;
-	text-decoration: none;
-}
-
 
 
 .presentation{
@@ -57,46 +40,6 @@ a.navbar-option{
 	padding-top: 4em;
 	outline: none;
 }
-
-.name-container{
-	display: flex;
-	justify-content: center;
-	padding-top: 6em;
-}
-
-p.name{
-	font-size: 40px;
-	font-weight: bolder;
-	color: #F7F7F7;
-	
-}
-
-
- hr { 
-   border-top: 3px solid #4bceb4; 
-   border-bottom: 2px dashed #4bceb4; 
-   border-left:none; 
-   border-right:none; 
-   height: 6px; 
-   margin-left: auto;
-   margin-right: auto;
-
- } 
-
-.subtitle-container{
-	display: flex;
-	justify-content: center;
-}
-
-
-h4.subtitle{
-	font-size: 20px;
-	color: #F7F7F7;
-	/*text-shadow: 0.2em 0.2em #E66652;*/
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
 
 
 .work{
@@ -109,16 +52,6 @@ h4.subtitle{
 .works{
 	width: 200px;
 }
-
-
-.mySlides{
-	width: 100%;
-}
-
-.mini-img-work{
-	width: 100%;
-}
-
 
 .contact{
 	width: auto;
@@ -171,8 +104,12 @@ footer{
 
 .camilu {
   background: url(../img/me.png) no-repeat;
-    height: 250px;
+    height: 230px;
     width: 168px; 
+}
+
+li {
+	margin-right: 1em;
 }
 
 .skill{
@@ -183,7 +120,7 @@ footer{
 	/*padding: 1em;*/
 	/*border: 5px solid #fff;*/
 	background-color: #000;
-	margin-top:1em;
+	
 }
 
 .select-skill{
@@ -201,6 +138,7 @@ footer{
 .description{
 	text-align: justify;
     text-justify: inter-word;
+    color: #4bceb4;
 }
 
 /* estilos about me */
@@ -278,8 +216,9 @@ outline: none;
 	margin-right: auto;
 }
 
-li a{
-	padding:1em;
+li a h4:hover{
+	color: #F26E55; 
+	
 }
 
 /* estilos del footer*/
