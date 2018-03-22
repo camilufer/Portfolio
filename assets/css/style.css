@@ -107,16 +107,10 @@ h4.subtitle{
 	padding-bottom: 1em;
 }
 
-.photo-container{
-	display: flex;
-	justify-content: center;
-	align-items:center;
-	margin-bottom: 2em; 
-	margin-top: 4em;
-}
+
 
 .work{
-	height: 100vh;
+	height: 	;
 	width: 100%;
 	outline: none;
 	/*background-color: #2B313D;*/
@@ -153,7 +147,7 @@ footer{
 	background-color: #2B313D;
 }
 
-.icons-container{
+.icons-heart{
    padding-top: 1em;
    padding-bottom: 1em;
 }
@@ -165,7 +159,8 @@ footer{
 }
 
 .form-container{
-	margin-bottom: 8em;
+	    margin-top: 10em;
+    margin-bottom: 10em;
 }
 
 .icon-container{
@@ -186,12 +181,9 @@ footer{
 
 .camilu {
   background: url(../img/me.png) no-repeat;
-  height: 250px;
-  width: 250px;
+    height: 250px;
+    width: 168px; 
 }
-
-
-
 
 .skill{
 	width: 100px;
@@ -216,12 +208,21 @@ footer{
 	margin: 1em;
 }
 
+.description{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
 /* estilos about me */
 .about-me{
-	width: auto;
-	height: 100vh;
+	margin-bottom: 4em;
 	outline: none;
 	/*background-color: #F26E55;*/
+}
+
+.container-text{
+	margin-top: 6em;
+	height: 100%;
 }
 
 .btn:hover {
@@ -232,7 +233,7 @@ footer{
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   cursor: pointer;
   border: none;
@@ -243,6 +244,14 @@ footer{
   border-radius: 50px;
   box-shadow: 0 9px #999;
   margin-bottom: 1em;
+}
+
+.presentation{
+height: 100vh;
+}
+.work{
+	height: 100vh;
+	/*eliminar despues*/
 }
 
 
