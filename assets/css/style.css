@@ -28,28 +28,18 @@
     top: 0;
     right: 0;
     width: 100%;
+    height: 3em;
    
 }
 
-
-ul.list-navbar{
-	list-style: none;
+h6:hover{
+	color: #D71072;
 }
 
-li{
-	display: inline-block;
-}
 
-.navbar-option{
-	display: flex;
-	justify-content: space-around;
-	color: #4bceb4;
-	padding: 0.8em;
-	cursor: pointer;
-}
 
 a:hover{
-	color: #F26E55;
+	color: #D71072;
 }
 
 
@@ -288,6 +278,9 @@ outline: none;
 	margin-right: auto;
 }
 
+li a{
+	padding:1em;
+}
 
 /* estilos del footer*/
 .dog{
@@ -295,6 +288,7 @@ outline: none;
 	height: 100px;
 	width: 100px;
 	margin-left: 2em;
+	cursor: pointer;
 }
 
 .dog:hover{
@@ -307,6 +301,33 @@ outline: none;
 	width: 20px;
 	height: 20px;
 }
+
+
+ @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:absolute;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+
+
 
 
 /* estilos de scroll */
