@@ -61,6 +61,11 @@ $(document).ready(function(){
       }
     });
 
+   $(".dog").mouseover(function(){
+        $(".dog-msj").removeClass("hide");
+    });
+
+
  });
 
 
@@ -75,4 +80,5 @@ function cambiaTamanio(){
   }
   event.preventDefault();
 }
+
 
