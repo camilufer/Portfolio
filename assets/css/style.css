@@ -359,8 +359,7 @@ li a h4:hover{
   position: relative;
   width: 100%;
   height: 35px;
-  line-height: 35px;
-  top: -265px;
+  top: -280px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   font-family: "Open Sans";
@@ -380,7 +379,7 @@ li a h4:hover{
 .card .card-info .card-detail {
   line-height: 1.5em;
   font-size: 0.8em;
-  height: 220px;
+  height: 345px;
   color: #4bceb4;
   background: rgba(0, 0, 0, 0.6);
   position: relative;
