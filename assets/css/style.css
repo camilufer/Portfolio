@@ -1,6 +1,4 @@
 /*colors
-* #FDF9F8 rosado extra claro
-* #FDF1F0 rosado claro
 * #F26E55 damasco
 * #2B313D oscuro
 * #4bceb4 celeste
@@ -48,7 +46,11 @@ background-color: #669999;
 }
 
 a{
-	color: #F26E55;
+	color: #DCA6D7;
+}
+
+a:hover{
+	color: #DAE1AE;
 }
 
 
@@ -61,29 +63,12 @@ a{
 
    .content h1 {
     font-size:70px;
-    color:#4bceb4;
+    color:#B6E0E6;
     font-family: eightbit, monospace;
     text-transform:uppercase;
     text-align:center;
     margin-top:200px;
   }
-
-
-
-
-.header-container{
-  /*background-color: #6259AB;*/
-  background-color: #383838;
-  position: fixed;
-  z-index: 1;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 3em;
-   
-}
-
-
 
 .presentation{
   width: auto;
@@ -92,16 +77,10 @@ a{
   outline: none;
 }
 
-
-.work{
-  
+.work{ 
   width: 100%;
   outline: none;
   /*background-color: #2B313D;*/
-}
-
-.works{
-  width: 200px;
 }
 
 .contact{
@@ -111,8 +90,12 @@ a{
   /*background-color: white;*/
 }
 
-h2{
-  color: #4bceb4;
+h2, h3{
+  color: #B6E0E6;
+}
+
+.card-text{
+	color: #C8EAEE;
 }
 
 footer{
@@ -205,7 +188,7 @@ li {
 }
 
 .btn:hover {
-  background-color: #3e8e41;
+  background-color: #FDF1F0;
   outline: none;
   outline-offset: 0;
 
@@ -234,7 +217,6 @@ height: 100vh;
 outline: none;
   outline-offset: none;
   color: white;
-  background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   
