@@ -50,7 +50,7 @@ a{
 }
 
 a:hover{
-	color: #DAE1AE;
+	color: #B6E0E6;
 }
 
 
@@ -172,7 +172,7 @@ li {
 .description{
   text-align: justify;
     text-justify: inter-word;
-    color: #4bceb4;
+    color: #B6E0E6;
 }
 
 /* estilos about me */

@@ -1,3 +1,9 @@
+# Portfolio
+
+## Paleta de colores
+
+![Paleta](assets/img/paleta.png)
+
 http://www.avatarsinpixels.com
 https://daneden.github.io/animate.css/
 http://wigflip.com/ds/#_=_
