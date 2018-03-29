@@ -69,16 +69,5 @@ $(document).ready(function(){
  });
 
 
-function cambiaTamanio(){
-  if (document.images) {
-    document.images.logo.width=100;
-    document.images.logo.height=100;
-  } else {
-    logo = document.getElementById("logo");
-    logo.width = 80;
-    logo.height = 80; 
-  }
-  event.preventDefault();
-}
 
 

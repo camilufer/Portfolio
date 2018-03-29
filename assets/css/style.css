@@ -4,15 +4,46 @@
 * #4bceb4 celeste
 */
 
+.dialogo3{
+	margin-top: 16em;
+
+}
+
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h1 { 
+	position: relative; 
+	background: transparent;
+	float: left;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: transparent;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 
 body {
-
+overflow-x:hidden;
 /* Ubicación de la imagen */
 
 background-image: url(../img/fondo.jpg);
 
 /* Para dejar la imagen de fondo centrada, vertical y
-
 horizontalmente */
 
 background-position: center center;
@@ -30,7 +61,6 @@ background-attachment: fixed;
 background-size: cover;
 
 /* Se muestra un color de fondo mientras se está cargando la imagen
-
 de fondo o si hay problemas para cargarla */
 
 background-color: #669999;
@@ -593,5 +623,3 @@ body {
 background-image: url(../img/fondo.jpg)
 
 }
-
-
