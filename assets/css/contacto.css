@@ -1,0 +1,166 @@
+
+section {
+
+/* Ubicación de la imagen */
+background-image: url(../img/fondo.jpg);
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */
+background-color: #669999;
+height: 100vh;
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #2B313D;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.icons-heart{
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+.fa-github, .fa-linkedin{
+  font-size:3em;
+  color: #4bceb4; 
+  cursor: pointer;
+}
+
+.form-container{
+      margin-top: 10em;   
+}
+
+.dog-container{
+      margin-top: 20em;   
+}
+
+.icono-redsocial{
+  width: 70px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* estilos del footer*/
+.dog{
+  background: url(../img/dog.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.dog:hover{
+  background: url(../img/dog2.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-left: 1em;
+}
+.heart{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+  .sword{
+    
+    margin-top: 1.5em;
+  }
+  .skillList p{
+    font-size: 20px;
+  }
+  .skill-container{
+  }
+  .btn{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+    p.name {
+        font-size: 40px;
+    }
+    a.navbar-option{
+  font-size: 15px;
+    }
+  .sword{
+    width: 8em;
+    margin-top: 1.5em;
+  }
+  .skillList p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 414px) {
+    p.name {
+        font-size: 22px;
+    }
+    a.navbar-option{
+  font-size: 6px;
+}
+  h4.subtitle {
+    font-size: 10px;
+  }
+  .pc-image {
+    width: 300px;
+  }
+  .name-container{
+    padding-top: 1em;
+  }
+  .sword{
+    width: 4em;
+    margin-top: 2em;
+  }
+  .skillList p{
+    font-size: 8px;
+  }
+}
+
+
+
+
+@media (max-width: 320px) {
+    p.name {
+        font-size: 18px;
+    }
+    a.navbar-option{
+  font-size: 5px;
+}
+  .form-container{
+    width: auto;
+  }
+  .name-container{
+    padding-top: 1em;
+  }
+  .sword{
+    width: 4em;
+    margin-top: 2em;
+  }
+  .skillList p{
+    font-size: 8px;
+  }
+  .btn{
+
+    font-size: 20px;
+  }
+}

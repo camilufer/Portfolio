@@ -1,0 +1,150 @@
+/*colors
+* #F26E55 damasco
+* #2B313D oscuro
+* #4bceb4 celeste
+*/
+html,body{ 
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.page {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      padding-bottom: 9px;
+    /* margin: 40px 0 20px; */
+    border-bottom: 1px solid #eee;
+}
+.page-header .filter::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+/*ESTILOS WORK*/
+.work {
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      padding-bottom: 9px;
+    /* margin: 40px 0 20px; */
+    border-bottom: 1px solid #eee;
+    height: auto;
+}
+
+
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100vh;
+      margin: auto;
+
+  }
+
+/*esta clase es para eliminar el fondo trasludido detras del carousel*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+.bajo{
+ position: relative;
+}
+#sobre, #sobre2, #sobre3, #sobre4 {
+ position:absolute;
+width: 230px;
+ top:178px;
+ left:80px;
+ border:none;
+     padding: 0;
+    margin: 0;
+  
+}
+
+img .imagenproyecto .{
+  width: 130px;
+}
+
+ #container-description {
+ position:absolute;
+ top:218px;
+ left:310px;
+ right: 5em;
+ border:none;
+     padding: 0;
+    margin: 0; 
+}
+
+h1{
+  margin-left: 1em;
+}
+
+a{
+  margin-left: 1em;
+}
+
+.caraous-title {
+  position: absolute;
+  left: 25px;
+  right: auto;
+}
+
+.description{
+  margin-top:-5em;
+}
+
+.card-text{
+  margin-left: 1em;
+}
+
+.caraous-title h1 {color:#FFF;font-size:45px; font-weight:600;}
+
+/*esta clase es para eliminar el fondo trasludido detras del carousel*/
+.carousel-control.left, .carousel-control.right {
+background-image: none
+}
+
+
+
+@media only screen and (min-device-width: 481px) {
+  .caraous-title {
+    top: 40%;
+  }
+}
