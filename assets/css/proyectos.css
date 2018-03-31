@@ -131,8 +131,20 @@ background-image: none
     left: 120px;
     }
      .card-text{
-      display: none;
+     margin-left: 5.5em;
+    font-size: 30px;
     }
+     h1{
+          font-size: 58px;
+    margin-left: 4em;
+    margin-top: 2em;
+    }
+    .container-links{
+    text-align: center;
+  margin-left: 6em;
+    font-size: 20px;
+}
+
 }
 
 
@@ -143,8 +155,21 @@ background-image: none
       left: 90px;
     }
      .card-text{
-      display: none;
+         
+    margin-left: 3.5em;
+    font-size: 20px;
     }
+     h1{
+           font-size: 40px;
+    margin-left: 3.5em;
+    margin-top: 1em;
+    align-items: center;
+    }
+  .container-links{
+    text-align: center;
+  margin-left: 6em;
+    font-size: 20px;
+}
 }
 
 @media (max-width: 425px) {
@@ -156,6 +181,14 @@ background-image: none
      .card-text{
       display: none;
     }
+    h1{
+    font-size: 30px;
+    margin-left: -2em;
+    margin-top: -3.5em;
+    }
+       .container-links{
+  margin-left: -5em;
+}
 }
 
 @media (max-width: 375px) {
@@ -167,7 +200,14 @@ background-image: none
      .card-text{
       display: none;
     }
-
+    h1{
+    font-size: 30px;
+    margin-left: -3em;
+    margin-top: -3.5em;
+    }
+       .container-links{
+  margin-left: -7em;
+}
 }
 
 
@@ -181,6 +221,14 @@ background-image: none
      .card-text{
       display: none;
     }
+    h1{
+    font-size: 30px;
+    margin-left: -3em;
+    margin-top: -3.5em;
+    }
+    .container-links{
+  margin-left: -7em;
+}
 
 }
 
@@ -193,5 +241,15 @@ background-image: none
     .card-text{
       display: none;
     }
-
+    h1{
+    font-size: 20px;
+    margin-left: -6em;
+    margin-top: -5.5em;
+    }
+  .container-links{
+        text-align: center;
+    font-size: 15px;
+    margin-left: -10.5em;
+}
+  
 }
