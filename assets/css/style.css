@@ -42,7 +42,7 @@ html,body{
 
 
 .proyectos{
-  margin-top: -19.5em;
+  margin-top: -19.2em;
   margin-left:4em;
   font-size: 20px;
   -webkit-transform: rotate(3deg);
@@ -50,7 +50,7 @@ html,body{
 }
 
 .sobre-mi{
-  margin-top: 3em;
+  margin-top: 3.2em;
   margin-left:7em;
   font-size: 20px;
   -webkit-transform: rotate(-3deg);
@@ -66,9 +66,9 @@ html,body{
 }
 
 a{
-  color: #333333 !important;
- text-shadow: #000 0.1px 0, grey 0 -1px, #000000 0 3px, #000000 -1px 0px 1px;
+  color: #24292E!important;
  text-decoration: none !important;
+ cursor:pointer ;
 }
 
 
