@@ -33,23 +33,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-      padding-bottom: 9px;
-    /* margin: 40px 0 20px; */
-    border-bottom: 1px solid #eee;
 }
-.page-header .filter::after {
-  background-color: rgba(0, 0, 0, 0.5);
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-
-
 
 /*ESTILOS WORK*/
 .work {
@@ -63,10 +47,9 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-      padding-bottom: 9px;
-    /* margin: 40px 0 20px; */
-    border-bottom: 1px solid #eee;
-    height: auto;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+  height: auto;
 }
 
 
@@ -134,7 +117,6 @@ a{
   margin-left: 1em;
 }
 
-.caraous-title h1 {color:#FFF;font-size:45px; font-weight:600;}
 
 /*esta clase es para eliminar el fondo trasludido detras del carousel*/
 .carousel-control.left, .carousel-control.right {
@@ -142,9 +124,74 @@ background-image: none
 }
 
 
+@media (max-width: 1024px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+        width: 340px;
+    top: 290px;
+    left: 120px;
+    }
+     .card-text{
+      display: none;
+    }
+}
 
-@media only screen and (min-device-width: 481px) {
-  .caraous-title {
-    top: 40%;
-  }
+
+@media (max-width: 768px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+      width: 260px;
+      top: 200px;
+      left: 90px;
+    }
+     .card-text{
+      display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+        width: 150px;
+        top: 110px;
+        left: 70px;
+    }
+     .card-text{
+      display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+        width: 130px;
+        top: 97px;
+        left: 70px;
+    }
+     .card-text{
+      display: none;
+    }
+
+}
+
+
+
+@media (max-width: 360px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+            width: 130px;
+            top: 96px;
+            left: 60px;
+    }
+     .card-text{
+      display: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+    #sobre, #sobre2, #sobre3, #sobre4 {
+            width: 120px;
+            top: 85px;
+            left: 60px;
+    }
+    .card-text{
+      display: none;
+    }
+
 }
