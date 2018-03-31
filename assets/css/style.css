@@ -112,6 +112,7 @@ a{
   margin-top: 10em;
   width: 400px;
   position: fixed-bottom;
+  cursor:pointer;
 }
 .cartel{
   z-index: 6;
