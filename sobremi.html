@@ -16,16 +16,31 @@
 <section class="pageabout container-fluid">
   <div class="row camix">
     <div class="aboutme-container">
-      <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-2 col-xs-12">
+      <div class="col-md-6 col-md-offset-1 col-sm-5 col-sm-offset-2 col-xs-12">
         <div id="main-container" class="texto">
          <span id="text"></span>
         </div>
-        <button id="btn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Ver Skills</button>
+      </div>
+    <div class="col-md-2 col-md-offset-2">
+    <div  id="menu-container">
+      <div class="btn-group">
+      <a><button id="btn" type="button" class="btn-skills text-center btn btn-lg" data-toggle="modal" data-target="#myModal">Ver Skills</button></a> 
+        <button id="btnmenu" type="button" class="text-center btn btn-lg menu btn  dropdown-toggle"
+          data-toggle="dropdown">Menú<span class="caret"></span>
+        </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="index.html"><button id="" type="button" class="text-center btn  btn-lg">Inicio</button></a></li>
+    <li><a href="proyectos.html"><button id="" type="button" class="text-center btn  btn-lg">Proyectos</button></a></li>
+    <li><a href="contacto.html"><button id="" type="button" class="text-center btn  btn-lg">Contacto</button></a></li> 
+  </ul>
+  </div>
+</div>
       </div>
     </div>
-     <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-5 hidden-xs">
+     <div class="col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5 hidden-xs">
        <div class="camilu" style=" position: fixed; bottom: 0;"></div>
      </div>
+
    </div>
 
     <!-- Modal -->

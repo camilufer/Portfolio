@@ -19,5 +19,5 @@ const writeText = () => {
   const typing = new Typing(text, 50);
   typing();
   $('#main-container').append('<span id="blinker">|</span>');
-
+ 
 };

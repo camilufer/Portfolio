@@ -16,7 +16,23 @@ html,body{
   box-sizing: border-box;
 }
 
+.heart{
+  width: 20px;
+  height: 20px;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #2B313D;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
+.icons-heart{
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
 
 
 
@@ -72,7 +88,7 @@ html,body{
 }
 #sobre, #sobre2, #sobre3, #sobre4 {
  position:absolute;
-width: 230px;
+width: 220px;
  top:178px;
  left:80px;
  border:none;
@@ -87,7 +103,7 @@ img .imagenproyecto .{
 
  #container-description {
  position:absolute;
- top:218px;
+ top:190px;
  left:310px;
  right: 5em;
  border:none;
@@ -184,7 +200,7 @@ background-image: none
     h1{
     font-size: 30px;
     margin-left: -2em;
-    margin-top: -3.5em;
+    margin-top: -2.5em;
     }
        .container-links{
   margin-left: -5em;
@@ -203,7 +219,7 @@ background-image: none
     h1{
     font-size: 30px;
     margin-left: -3em;
-    margin-top: -3.5em;
+    margin-top: -3em;
     }
        .container-links{
   margin-left: -7em;
@@ -224,7 +240,7 @@ background-image: none
     h1{
     font-size: 30px;
     margin-left: -3em;
-    margin-top: -3.5em;
+    margin-top: -3em;
     }
     .container-links{
   margin-left: -7em;
@@ -244,7 +260,7 @@ background-image: none
     h1{
     font-size: 20px;
     margin-left: -6em;
-    margin-top: -5.5em;
+    margin-top: -3.5em;
     }
   .container-links{
         text-align: center;

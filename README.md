@@ -1,5 +1,5 @@
 # Portfolio FINAAAAAAAAL
-
+#071B1A para cartel
 ## Paleta de colores
 
 ![Paleta](assets/img/paleta.png)

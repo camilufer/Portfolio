@@ -1,3 +1,6 @@
+
+
+
 html,body{ 
   height:100%;
   width:100%;
@@ -34,16 +37,16 @@ html,body{
 
 .texto{
   border-color: 1px solid white;
-  margin-top: 10em;
+ margin-top: 3em;
   background-color: #000;
   display: flex;
 align-items: flex-end;
 
-    border: 1px solid #4CAF50;
+    border: 3px solid #4CAF50;
 }
 
 .btn {
-  margin-top: 2em;
+  width: 13em;
   box-sizing: border-box;
   border-width: 2px;
   font-size: 12px;
@@ -55,10 +58,36 @@ align-items: flex-end;
   border-color: #4bceb4;
   color: #F26E55;
   opacity: 1;
-  
+  background-color:rebeccapurple ;
 }
 
+button#btnmenu{
+border-width: 2px;
 
+}
+
+#menu-container{
+  margin-top: 2em;
+  width: 13em;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu{
+  margin-top: 1em;
+}
+
+ul li a {
+  background-color: transparent !important;
+}
+ul.dropdown-menu{
+  background-color: transparent;
+}
 
 section{
    background: url(../img/fondo33.png) no-repeat;
@@ -78,43 +107,13 @@ section{
 }
 
 .modal-content{
+   border: 3px solid #4CAF50;
   background-color: #2B313D !important;
   color: black;
 }
 
-@media (min-width: 1024px) {
-    .texto{
-          margin-top: 15em;
-  
-    }
-    .btn{
-      margin-left: 5em;
-    }
-  
+.btn-group{
+  margin-top: 1em !important;
 }
 
 
-@media (max-width: 768px) {
-    .texto{
-      margin-top: 15em;
-    }
-  
-}
-
-@media (max-width: 375px) {
-    .texto{
-      margin-top:3em;
-    }
-  
-}
-
-
-@media (max-width: 320px) {
-    .texto{
-      margin-top:1em;
-    }
-    .btn{
-      margin-top: 1em;
-    }
-  
-}

@@ -1,6 +1,5 @@
 
  
- 
 
    
             var sideslider = $('[data-toggle=collapse-side]');
@@ -31,4 +30,3 @@ function cambiaTamanio(){
   }
   event.preventDefault();
 }
-
