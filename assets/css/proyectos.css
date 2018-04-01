@@ -12,7 +12,6 @@ html,body{
 }
 
 *{
- 
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +19,6 @@ html,body{
 }
 
 section {
-
 /* Ubicación de la imagen */
 background-image: url(../img/fondo33.png);
 /* Para dejar la imagen de fondo centrada, vertical y
@@ -58,22 +56,6 @@ footer{
 }
 
 
-
-.page {
-  background-color: #B2AFAB;
-  background-position: center center;
-  background-size: cover;
-  min-height: 100vh;
-  max-height: 999px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /*ESTILOS WORK*/
 .work {
   background-position: center center;
@@ -95,7 +77,6 @@ footer{
 
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100vh;
       margin: auto;
 
   }
@@ -105,40 +86,8 @@ footer{
     background-image: none
 }
 
-
-
-
-
-
- #container-description {
- position:absolute;
- top:190px;
- left:310px;
- right: 5em;
- border:none;
-     padding: 0;
-    margin: 0; 
-}
-
-h1{
-  margin-left: 1em;
-}
-
-a{
-  margin-left: 1em;
-}
-
-
-.description{
-  margin-top:-5em;
-}
-
-.card-text{
-  margin-left: 1em;
-}
-
 .btn {
-   font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
   width: 13em;
   box-sizing: border-box;
   border-width: 2px;
@@ -165,10 +114,13 @@ div.item.active{
   border: 3px solid #4CAF50;
 
 }
+.carousel{
+  margin-top: 1em;
+}
 
 .carousel-inner {
     position: relative;
-    width: 35%;
+    width: 100%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -213,3 +165,9 @@ ul.dropdown-menu{
 background-image: none
 }
 
+
+@media (max-width: 768px) {
+    .carousel {
+        margin-top: 6em;
+    }
+}

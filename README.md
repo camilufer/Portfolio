@@ -1,4 +1,4 @@
-# Portfolio FINAAAAAAAAL
+# Portfolio
 #071B1A para cartel
 ## Paleta de colores
 
