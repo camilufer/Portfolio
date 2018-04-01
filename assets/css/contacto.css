@@ -33,13 +33,10 @@ background-color: #669999;
 height: 100vh;
 }
 
-
-
-
 footer{
   width: 100%;
   height: auto;
-  background-color: #2B313D;
+  background-color: #000;
   position: fixed;
   bottom: 0;
   left: 0;

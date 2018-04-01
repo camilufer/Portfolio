@@ -1,30 +1,15 @@
-/*slider*/
- 
-var sideslider = $('[data-toggle=collapse-side]');
-var sel = sideslider.attr('data-target');
-var sel2 = sideslider.attr('data-target-2');
-sideslider.click(function(event){
-    $(sel).toggleClass('in');
-    $(sel2).toggleClass('out');
-});
-      
-/*msj prrito*/
-$(".dog").mouseover(function(){
-$(".dog-msj").removeClass("hide");
-});
+
+$('#inicio').on('mouseenter', '.btn-nav', function() {
+  $('.btn-nav').removeClass('for-hover animated infinite flash');
+  $(this).addClass('for-hover animated infinite flash');
+})
+
+$('#inicio').on('click', '.btn-nav', function() {
+  $('nav').show()
+})
 
 
 
 
 
-function cambiaTamanio(){
-  if (document.images) {
-    document.images.logo.width=100;
-    document.images.logo.height=100;
-  } else {
-    logo = document.getElementById("logo");
-    logo.width = 80;
-    logo.height = 80; 
-  }
-  event.preventDefault();
-}
+
