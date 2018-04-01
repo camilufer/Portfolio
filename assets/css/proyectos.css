@@ -3,6 +3,7 @@
 * #2B313D oscuro
 * #4bceb4 celeste
 */
+
 html,body{ 
   height:100%;
   width:100%;
@@ -11,10 +12,32 @@ html,body{
 }
 
 *{
+ 
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  color: #F26E55;
 }
+
+section {
+
+/* Ubicación de la imagen */
+background-image: url(../img/fondo33.png);
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */
+background-color: #669999;
+height: 100vh;
+}
+
 
 .heart{
   width: 20px;
@@ -83,23 +106,9 @@ footer{
 }
 
 
-.bajo{
- position: relative;
-}
-#sobre, #sobre2, #sobre3, #sobre4 {
- position:absolute;
-width: 220px;
- top:178px;
- left:80px;
- border:none;
-     padding: 0;
-    margin: 0;
-  
-}
 
-img .imagenproyecto .{
-  width: 130px;
-}
+
+
 
  #container-description {
  position:absolute;
@@ -119,11 +128,6 @@ a{
   margin-left: 1em;
 }
 
-.caraous-title {
-  position: absolute;
-  left: 25px;
-  right: auto;
-}
 
 .description{
   margin-top:-5em;
@@ -133,141 +137,79 @@ a{
   margin-left: 1em;
 }
 
+.btn {
+   font-family: 'Press Start 2P', cursive;
+  width: 13em;
+  box-sizing: border-box;
+  border-width: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-color: #4bceb4;
+  color: #F26E55;
+  opacity: 1;
+  /*background-color:rebeccapurple ;*/
+  background-color:#000 ;
+}
+
+button#btnmenu{
+border-width: 2px;
+
+}
+
+div.item.active{
+  background-color: black;
+  border: 3px solid #4CAF50;
+
+}
+
+.carousel-inner {
+    position: relative;
+    width: 35%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+
+  }
+
+  .carousel-caption{
+    /*background-color:rgba(255,0,0,0.3)*/
+    background-color: #000;
+  }
+
+#menu-container{
+  margin-top: 2em;
+  width: 13em;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu{
+  margin-top: 1em;
+}
+
+ul li a {
+  background-color: transparent !important;
+}
+ul.dropdown-menu{
+  background-color: transparent;
+}
 
 /*esta clase es para eliminar el fondo trasludido detras del carousel*/
 .carousel-control.left, .carousel-control.right {
 background-image: none
 }
-
-
-@media (max-width: 1024px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-        width: 340px;
-    top: 290px;
-    left: 120px;
-    }
-     .card-text{
-     margin-left: 5.5em;
-    font-size: 30px;
-    }
-     h1{
-          font-size: 58px;
-    margin-left: 4em;
-    margin-top: 2em;
-    }
-    .container-links{
-    text-align: center;
-  margin-left: 6em;
-    font-size: 20px;
-}
-
-}
-
-
-@media (max-width: 768px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-      width: 260px;
-      top: 200px;
-      left: 90px;
-    }
-     .card-text{
-         
-    margin-left: 3.5em;
-    font-size: 20px;
-    }
-     h1{
-           font-size: 40px;
-    margin-left: 3.5em;
-    margin-top: 1em;
-    align-items: center;
-    }
-  .container-links{
-    text-align: center;
-  margin-left: 6em;
-    font-size: 20px;
-}
-}
-
-@media (max-width: 425px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-        width: 150px;
-        top: 110px;
-        left: 70px;
-    }
-     .card-text{
-      display: none;
-    }
-    h1{
-    font-size: 30px;
-    margin-left: -2em;
-    margin-top: -2.5em;
-    }
-       .container-links{
-  margin-left: -5em;
-}
-}
-
-@media (max-width: 375px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-        width: 130px;
-        top: 97px;
-        left: 70px;
-    }
-     .card-text{
-      display: none;
-    }
-    h1{
-    font-size: 30px;
-    margin-left: -3em;
-    margin-top: -3em;
-    }
-       .container-links{
-  margin-left: -7em;
-}
-}
-
-
-
-@media (max-width: 360px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-            width: 130px;
-            top: 96px;
-            left: 60px;
-    }
-     .card-text{
-      display: none;
-    }
-    h1{
-    font-size: 30px;
-    margin-left: -3em;
-    margin-top: -3em;
-    }
-    .container-links{
-  margin-left: -7em;
-}
-
-}
-
-@media (max-width: 320px) {
-    #sobre, #sobre2, #sobre3, #sobre4 {
-            width: 120px;
-            top: 85px;
-            left: 60px;
-    }
-    .card-text{
-      display: none;
-    }
-    h1{
-    font-size: 20px;
-    margin-left: -6em;
-    margin-top: -3.5em;
-    }
-  .container-links{
-        text-align: center;
-    font-size: 15px;
-    margin-left: -10.5em;
-}
-  
-}
-
 

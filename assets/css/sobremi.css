@@ -13,6 +13,7 @@ html,body{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  color: #F26E55;
 }
 
 
@@ -58,7 +59,8 @@ align-items: flex-end;
   border-color: #4bceb4;
   color: #F26E55;
   opacity: 1;
-  background-color:rebeccapurple ;
+  /*background-color:rebeccapurple ;*/
+  background-color:#000 ;
 }
 
 button#btnmenu{

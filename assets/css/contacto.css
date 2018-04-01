@@ -1,4 +1,19 @@
 
+
+html,body{ 
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 
+}
+
+*{
+  font-family: 'Press Start 2P', cursive;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #F26E55;
+}
 section {
 
 /* Ubicación de la imagen */
@@ -47,7 +62,7 @@ footer{
 }
 
 .dog-container{
-      margin-top: 15.4em;   
+      margin-top: 9.8em;   
 }
 
 .icono-redsocial{
@@ -80,7 +95,7 @@ footer{
   width: 13em;
   box-sizing: border-box;
   border-width: 2px;
-  font-size:8px;
+  font-size: 12px;
   font-weight: 600;
   padding: 0.5rem 18px;
   line-height: 1.75;
@@ -89,18 +104,18 @@ footer{
   border-color: #4bceb4;
   color: #F26E55;
   opacity: 1;
-  background-color:rebeccapurple ;
+  /*background-color:rebeccapurple ;*/
+  background-color:#000 ;
 }
 
 button#btnmenu{
 border-width: 2px;
-width: 13em;
 
 }
 
 #menu-container{
   margin-top: 2em;
-  width: 10em;
+  width: 13em;
   box-sizing: border-box;
   font-size: 12px;
   font-weight: 600;
@@ -121,91 +136,3 @@ ul.dropdown-menu{
   background-color: transparent;
 }
 
-
-
-
-@media (min-width: 1024px) {
-  .sword{
-    
-    margin-top: 1.5em;
-  }
-  .skillList p{
-    font-size: 20px;
-  }
-  .skill-container{
-  }
-  .btn{
-    font-size: 30px;
-  }
-}
-
-
-@media (max-width: 768px) {
-    p.name {
-        font-size: 40px;
-    }
-    a.navbar-option{
-  font-size: 15px;
-    }
-  .sword{
-    width: 8em;
-    margin-top: 1.5em;
-  }
-  .skillList p{
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 414px) {
-    p.name {
-        font-size: 22px;
-    }
-    a.navbar-option{
-  font-size: 6px;
-}
-  h4.subtitle {
-    font-size: 10px;
-  }
-  .pc-image {
-    width: 300px;
-  }
-  .name-container{
-    padding-top: 1em;
-  }
-  .sword{
-    width: 4em;
-    margin-top: 2em;
-  }
-  .skillList p{
-    font-size: 8px;
-  }
-}
-
-
-
-
-@media (max-width: 320px) {
-    p.name {
-        font-size: 18px;
-    }
-    a.navbar-option{
-  font-size: 5px;
-}
-  .form-container{
-    width: auto;
-  }
-  .name-container{
-    padding-top: 1em;
-  }
-  .sword{
-    width: 4em;
-    margin-top: 2em;
-  }
-  .skillList p{
-    font-size: 8px;
-  }
-  .btn{
-
-    font-size: 20px;
-  }
-}
