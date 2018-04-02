@@ -93,6 +93,7 @@ ul.dropdown-menu{
 
 section{
    background: url(../img/fondo33.png) no-repeat;
+   background-color: #000;
 }
 
 .pageabout {
@@ -122,3 +123,20 @@ section{
   display: block;
   padding:0.5em;
 }
+
+span{
+  font-size: 15px;
+}
+
+@media (max-width: 425px) {
+    span {
+        font-size:10px;
+    }
+    #menu-container{
+        font-size:8px;
+    }
+    .btn{
+       font-size:8px;
+    }
+}
+

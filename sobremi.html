@@ -13,42 +13,53 @@
   <link rel="icon" href="assets/img/alien.ico">
 </head>
 
-
 <body>
 <section class="pageabout container-fluid">
   <div class="row camix">
     <div class="aboutme-container">
-      <div class="col-md-6 col-md-offset-1 col-sm-5 col-sm-offset-2 col-xs-12">
+      <div class="col-md-7 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
         <div id="main-container" class="texto">
          <span id="text"></span>
         </div>
       </div>
-    <div class="col-md-2 col-md-offset-2">
+    <div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1">
     <div  id="menu-container">
       <div class="btn-group">
-      <a><button id="btn" type="button" class="btn-skills text-center btn btn-lg" data-toggle="modal" data-target="#myModal">Ver Skills</button></a> 
+        <a>
+          <button id="btn" type="button" class="btn-skills text-center btn btn-lg" data-toggle="modal" data-target="#myModal">Ver Skills</button>
+        </a> 
         <button id="btnmenu" type="button" class="text-center btn btn-lg menu btn  dropdown-toggle"
-          data-toggle="dropdown">Menú<span class="caret"></span>
+          data-toggle="dropdown">Menú
+          <span class="caret"></span>
         </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="index.html"><button id="" type="button" class="text-center btn  btn-lg">Inicio</button></a></li>
-    <li><a href="proyectos.html"><button id="" type="button" class="text-center btn  btn-lg">Proyectos</button></a></li>
-    <li><a href="contacto.html"><button id="" type="button" class="text-center btn  btn-lg">Contacto</button></a></li> 
-  </ul>
-  </div>
-</div>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="index.html">
+            <button id="" type="button" class="text-center btn  btn-lg">Inicio</button>
+          </a>
+        </li>
+        <li>
+          <a href="proyectos.html">
+            <button id="" type="button" class="text-center btn  btn-lg">Proyectos</button>
+          </a>
+        </li>
+        <li>
+          <a href="contacto.html">
+            <button id="" type="button" class="text-center btn  btn-lg">Contacto</button>
+          </a>
+        </li> 
+      </ul>
       </div>
     </div>
-     <div class="col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5 hidden-xs">
-       <div class="camilu" style=" position: fixed; bottom: 0;"></div>
-     </div>
-
-   </div>
-
+    </div>
+    </div>
+    <div class="col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-3 hidden-xs">
+      <div class="camilu" style=" position: fixed; bottom: 0;"></div>
+    </div>
+  </div>
     <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
       <!-- Modal content-->
       <div id="mdlcolor" class="modal-content">
         <div class="modal-header">
@@ -56,16 +67,16 @@
           <h4 class="text-center modal-title">Mis Skills</h4>
         </div>
         <div class="modal-body row">
-        <div class="content-skils col-md-6">
-<!-- in your body -->
+        <div class="content-skils col-md-6 col-sm-5 col-xs-10">
+      <!-- in your body -->
           <i class="devicon devicon-html5-plain text-uppercase"> html5</i>
           <i class="devicon devicon-css3-plain text-uppercase"> css3</i>
           <i class="devicon devicon-javascript-plain text-uppercase"> js</i>
           <i class="devicon devicon-jquery-plain text-uppercase"> jquery</i>
           <i class="devicon devicon-bootstrap-plain text-uppercase"> bootstrap</i>
         </div>
-        <div class="content-skills col-md-6">
-        <i class="devicon devicon-materialize-plain text-uppercase"> materialize</i>
+        <div class="content-skills col-md-6 col-sm-5 col-xs-10">
+          <i class="devicon devicon-materialize-plain text-uppercase"> materialize</i>
           <i class="devicon devicon-git-plain text-uppercase"> git</i>
           <i class="devicon devicon-github-plain text-uppercase"> github</i>
           <i class="devicon devicon-sass-plain text-uppercase"> sass</i>
@@ -76,19 +87,11 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
     </div>
-  </div>
-  
-  
+  </div> 
 </section>
 
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -96,6 +99,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <script src="assets/js/typing.min.js"></script>
-    <script src="assets/js/sobremi.js"></script>
+  <script src="assets/js/sobremi.js"></script>
   </body>
 </html>

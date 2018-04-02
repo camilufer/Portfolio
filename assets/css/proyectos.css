@@ -32,7 +32,7 @@ background-attachment: fixed;
 background-size: cover;
 /* Se muestra un color de fondo mientras se está cargando la imagen
 de fondo o si hay problemas para cargarla */
-background-color: #669999;
+background-color: #000;
 height: 100vh;
 }
 

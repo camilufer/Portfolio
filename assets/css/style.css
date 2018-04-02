@@ -4,23 +4,15 @@
 * #4bceb4 celeste
 */
 
-
-section{
-   background: url(../img/fondo33.png) no-repeat;
+section {
+  background: url(../img/fondo33.png) no-repeat;
 }
-
-ul {
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 
 #inicio {
+  font-size: 20px;
   display: flex;
   justify-content: center;
-align-items:center;
+  align-items:center;
   position: relative;
   z-index: 2;
   background-color: transparent;
@@ -37,6 +29,12 @@ align-items:center;
 
 #inicio ul li {
   padding: 6px 22px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #inicio .btn-nav {
@@ -74,9 +72,9 @@ align-items:center;
   display: flex;
   align-items: center;
   justify-content: center;
-      padding-bottom: 9px;
-    /* margin: 40px 0 20px; */
-    border-bottom: 1px solid #eee;
+  padding-bottom: 9px;
+  /* margin: 40px 0 20px; */
+  border-bottom: 1px solid #eee;
 }
 
 
@@ -102,3 +100,15 @@ align-items:center;
   }
 }
 
+
+@media (max-width: 1024px) {
+   #inicio{
+    font-size: 40px;
+   }
+}
+
+@media (max-width: 425px) {
+   #inicio{
+    font-size: 20px;
+   }
+}
