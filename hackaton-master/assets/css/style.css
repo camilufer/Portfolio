@@ -1,0 +1,62 @@
+html *{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-color:#1e1919;
+  color:#fff;
+}
+
+.citas{
+  font-size: 4em;
+  font-weight: 900;
+  color:#ffc107;
+}
+
+.seccionVer{
+  margin-top: 3em;
+}
+
+.facebook-btn {
+	background-color: #4267b2;
+  color: #FFF;
+  font-weight: 500;
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.facebook .fa-facebook-square{
+  color:#fff;
+  font-size: 30px;
+}
+
+#logo{
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+  float:left;
+}
+
+.bajada{
+}
+
+.carrusel{
+height: 
+}
+
+h5{
+	display: inline-block;
+}
+
+.verMas{
+	float: right;
+}
+
+.facebook{
+  float:right;
+}
+
+.facebook .fa-facebook-square{
+  color:#fff;
+  font-size: 30px;
+}
