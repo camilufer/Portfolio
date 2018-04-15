@@ -1,0 +1,114 @@
+/*colors
+* #F26E55 damasco
+* #2B313D oscuro
+* #4bceb4 celeste
+*/
+
+section {
+  background: url(../img/fondo33.png) no-repeat;
+}
+
+#inicio {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Press Start 2P', monospace;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  overflow: hidden;
+}
+
+#inicio ul li {
+  padding: 6px 22px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#inicio .btn-nav {
+  position: relative;
+  cursor: pointer;
+  color: #F26E55;
+  text-decoration: none;
+}
+
+#inicio .btn-nav:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#inicio .for-hover::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0da ';
+  color: #4CAF50;
+  font-weight: 900;
+  text-shadow: -2px -4px black, -2px 4px black, 2px 0 black, 0 -2px black;
+  position: absolute;
+  left: -25px;
+} 
+
+.page {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 9px;
+  /* margin: 40px 0 20px; */
+  border-bottom: 1px solid #eee;
+}
+
+
+.moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
+}
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+@media (max-width: 1024px) {
+   #inicio{
+    font-size: 40px;
+   }
+}
+
+@media (max-width: 425px) {
+   #inicio{
+    font-size: 20px;
+   }
+}

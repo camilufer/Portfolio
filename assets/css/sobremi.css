@@ -1,0 +1,142 @@
+
+
+
+html,body{ 
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 
+}
+
+*{
+  font-family: 'Press Start 2P', cursive;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #F26E55;
+}
+
+
+ #container-description {
+ position:absolute;
+ top:218px;
+ left:310px;
+ border:none;
+     padding: 0;
+    margin: 0;
+  
+}
+
+.camilu {
+  background: url(../img/cami11.png) no-repeat;
+    height: 230px;
+    width: 168px;  
+  margin-left: auto;
+  margin-right: auto; 
+ 
+}
+
+.texto{
+  border-color: 1px solid white;
+ margin-top: 3em;
+  background-color: #000;
+  display: flex;
+align-items: flex-end;
+
+    border: 3px solid #4CAF50;
+}
+
+.btn {
+  width: 13em;
+  box-sizing: border-box;
+  border-width: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-color: #4bceb4;
+  color: #F26E55;
+  opacity: 1;
+  /*background-color:rebeccapurple ;*/
+  background-color:#000 ;
+}
+
+button#btnmenu{
+border-width: 2px;
+
+}
+
+#menu-container{
+  margin-top: 2em;
+  width: 13em;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu{
+  margin-top: 1em;
+}
+
+ul li a {
+  background-color: transparent !important;
+}
+ul.dropdown-menu{
+  background-color: transparent;
+}
+
+section{
+   background: url(../img/fondo33.png) no-repeat;
+   background-color: #000;
+}
+
+.pageabout {
+  
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin:auto;
+  justify-content: center;
+}
+
+.modal-content{
+   border: 3px solid #4CAF50;
+  background-color: #2B313D !important;
+  color: black;
+}
+
+.btn-group{
+  margin-top: 1em !important;
+}
+
+.devicon{
+  display: block;
+  padding:0.5em;
+}
+
+span{
+  font-size: 15px;
+}
+
+@media (max-width: 425px) {
+    span {
+        font-size:10px;
+    }
+    #menu-container{
+        font-size:8px;
+    }
+    .btn{
+       font-size:8px;
+    }
+}
+
