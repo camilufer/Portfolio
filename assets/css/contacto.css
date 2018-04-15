@@ -1,3 +1,12 @@
+
+
+html,body{ 
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 
+}
+
 *{
   font-family: 'Press Start 2P', cursive;
   margin:0;
@@ -5,42 +14,80 @@
   box-sizing: border-box;
   color: #F26E55;
 }
-
 section {
-  height: 100vh;
-  background-image: url(../img/fondo33.png);
-  /* Ubicación de la imagen */
-  /* Para dejar la imagen de fondo centrada, vertical y
-  horizontalmente */
-  background-position: center center;
-  /* Para que la imagen de fondo no se repita */
-  background-repeat: no-repeat;
-  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
-  background-attachment: fixed;
-  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
-  background-size: cover;
-  /* Se muestra un color de fondo mientras se está cargando la imagen
-  de fondo o si hay problemas para cargarla */
+
+/* Ubicación de la imagen */
+background-image: url(../img/fondo33.png);
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */
+background-color: #000;
+height: 100vh;
+}
+
+footer{
+  width: 100%;
+  height: auto;
   background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
-.flex-containerr>div {
-  margin-top: 15%;
+.icons-heart{
+   padding-top: 1em;
+   padding-bottom: 1em;
 }
 
-#menu-container{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 3em;
-  box-sizing: border-box;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 0.5rem 18px;
-  line-height: 1.75;
+.fa-github, .fa-linkedin{
+  font-size:3em;
+  color: #4bceb4; 
   cursor: pointer;
-  text-transform: uppercase;
+  padding: 2em;
 }
 
+.form-container{
+      margin-top: 10em;   
+}
+
+.dog-container{
+      margin-top: 9.8em;   
+}
+
+.icono-redsocial{
+  margin-top: 4em;
+  width: 100px;
+  cursor: pointer;
+ padding: 1em;
+}
+
+/* estilos del footer*/
+.dog{
+  background: url(../img/dog11.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-left: 10em;
+  cursor: pointer;
+}
+
+.dog:hover{
+  background: url(../img/dog22.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-left: 10em;
+}
+.heart{
+  width: 20px;
+  height: 20px;
+}
 .btn {
   width: 13em;
   box-sizing: border-box;
@@ -56,30 +103,27 @@ section {
   opacity: 1;
   /*background-color:rebeccapurple ;*/
   background-color:#000 ;
-  margin-top: 1em;
-
-}
-.icono-redsocial{
-  margin-top: 4em;
-  width: 100px;
-  cursor: pointer;
- padding: 1em;
-}
-#icon-container{
-  display: flex;
-  justify-content: center;
-align-items:center;
 }
 
-img.icono-redsocial{
-  padding: 1em;
-  width: 100px;
+button#btnmenu{
+border-width: 2px;
+
 }
 
 #menu-container{
-   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin-top: 2em;
+  width: 13em;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 18px;
+  line-height: 1.75;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu{
+  margin-top: 1em;
 }
 
 ul li a {
@@ -89,19 +133,3 @@ ul.dropdown-menu{
   background-color: transparent;
 }
 
-.dog{
-  display: flex;
-  align-items: flex-end;
-  background: url(../img/dog11.png) no-repeat;
-  height: 100px;
-  width: 100px;
-  margin-left: 10em;
-  cursor: pointer;
-}
-
-.dog:hover{
-  background: url(../img/dog22.png) no-repeat;
-  height: 100px;
-  width: 100px;
-  margin-left: 10em;
-}
